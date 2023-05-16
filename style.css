@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+
+    display: grid;
+    place-items: center;
+}
+
+.box {
+    margin-top: 50px;
+}
+
+li {
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+    list-style-type: none;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box input {
+    width: 40vw;
+    height: 8vh;
+    border: none;
+    padding: 0px 10px;
+    background: burlywood;
+    border-radius: 23px 0 0 23px;
+    font-size: 20px;
+}
+
+.box input:focus {
+    outline: none;
+}
+
+.btn {
+    width: 8vw;
+    height: 9vh;
+    border-radius: 0 23px 23px 0;
+    background-color: rgb(177, 104, 10);
+    border: none;
+    font-size: 20px;
+}
+
+.input {
+    background-color: burlywood;
+    border-radius: 23px;
+}
+
+.box input::placeholder {
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+span {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 23px;
+}
+
+.red {
+    text-decoration: line-through;
+    background-color: lightgray;
+}
